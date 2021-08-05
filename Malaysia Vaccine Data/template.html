@@ -37,10 +37,10 @@
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-6">
                         <div class="text-center my-5">
-                            <h1 class="display-5 fw-bolder text-white mb-2">We are in Phase 1</h1>
-                            <h3 class="lead fw-bolder text-white mb-2"> updated at 2021-07-01 on Updated Time 22:18:44</h3>
+                            <h1 class="display-5 fw-bolder text-white mb-2"><$PHASE$></h1>
+                            <h3 class="lead fw-bolder text-white mb-2"><$DATE$></h3>
                             <p class="lead text-white-50 mb-1 text-sm-start">
-                              <p class="lead text-white-50 font-weight-normal">The Average 7 day case is : <b>6017</b><br> Our target is  : <b>4000</b><br> We need to lessen average positive case by : <b>2017</b></p><p class="lead text-white-50 font-weight-normal">ICU seem to be in <b> Acceptable Condition  The average 7 days ICU cases is : 893 </b></p><p class="lead text-white-50 font-weight-normal">Our current Vaccination is about: <b>7.4 </b>of the population</p>
+                              <$OUTPUT$>
                             </p>
                             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
 
@@ -122,66 +122,7 @@
                     <div class="col-lg-3 mb-5 mb-lg-0">
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
                         <h2 class="h4 fw-bolder">7 days Data</h2>
-                        <table class="table">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>dose2_cumul</th>
-      <th>new_cases</th>
-      <th>icu</th>
-    </tr>
-    <tr>
-      <th>date</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>2021-06-25</th>
-      <td>1966358</td>
-      <td>5812</td>
-      <td>870</td>
-    </tr>
-    <tr>
-      <th>2021-06-26</th>
-      <td>2021956</td>
-      <td>5803</td>
-      <td>866</td>
-    </tr>
-    <tr>
-      <th>2021-06-27</th>
-      <td>2087056</td>
-      <td>5586</td>
-      <td>886</td>
-    </tr>
-    <tr>
-      <th>2021-06-28</th>
-      <td>2130051</td>
-      <td>5218</td>
-      <td>899</td>
-    </tr>
-    <tr>
-      <th>2021-06-29</th>
-      <td>2214001</td>
-      <td>6437</td>
-      <td>905</td>
-    </tr>
-    <tr>
-      <th>2021-06-30</th>
-      <td>2309018</td>
-      <td>6276</td>
-      <td>905</td>
-    </tr>
-    <tr>
-      <th>2021-07-01</th>
-      <td>2393882</td>
-      <td>6988</td>
-      <td>917</td>
-    </tr>
-  </tbody>
-</table>
+                        <$TABLE$>
                     </div>
                 </div>
             </div>
